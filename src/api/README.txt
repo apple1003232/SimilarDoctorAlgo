@@ -1,3 +1,5 @@
+Author: Hongchen LI
+Date: 09/29/2016
 Assuming we could have a list of all the doctors' information and the entire directory of doctors fits to the memory. We're trying to provide a class for the algorithm for returning a list of similar doctors in a prioritized order and associated unit tests.
 
 Assuming a doctor has 4 required attributes, i.e. id, name, specialty and location, and 1 optional attribute, i.e. review score. We define similar doctors as doctors who have common specialties and locations. And we define the prioritized order as a order of doctors' review scores, i.e. the doctor with higher review score comes before the one with lower score. Then the basic idea is to first get a list of doctors who have common specialties and locations and then sort them in order of their review scores.
